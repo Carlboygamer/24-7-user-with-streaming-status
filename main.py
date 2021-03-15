@@ -12,7 +12,7 @@ client = commands.Bot(
 
 @client.event
 async def on_connect():
-  await client.change_presence(activity = discord.Streaming(name = "your status", url = "https://www.twitch.tv/you channel"))
+  await client.change_presence(activity = discord.Streaming(name = "your status", url = "https://www.twitch.tv/your channel"))
 
 
 keep_alive.keep_alive()
